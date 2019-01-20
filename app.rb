@@ -49,31 +49,8 @@ post '/contact' do
   redirect "/confirm"
   
 end 
-# get'/contact' do
-#   erb :contact
-# end
-
-# post "/contact" do
-#   from = "faustrosado@gmail.com"
-#   to = params[:email].to_s
-#   catalog = erb :catalog 
-#   SGMail.new(from, to, catalog)
-  
-  
-  # email = params[:email].to_s
-  # puts email
-  # send_mail(email)
-  
-
 
 get '/confirm' do 
   erb :confirm
 end
-
-
-# get "/catalog" do
-#   erb :catalog
-# end
-
-# post  "/mail do
 
